@@ -9,3 +9,6 @@ class Cat(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Owner(models.Model):
